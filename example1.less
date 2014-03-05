@@ -1,0 +1,382 @@
+/**************************
+       GLOBAL STYLES
+*************************/
+@import "fonts.css";
+@import "lesshat.less";
+
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.overflowhide
+{
+  overflow: hidden!important;
+}
+.careersItem
+{
+  width: 250px!important;
+}
+.privacy {width: 90%;margin: 0px auto;}
+.landing-address {font-size: 12px;}
+.legal {margin-top: 0px;font-size: 12px;font-weight: 300;padding-bottom: 70px;text-align: left;}
+.legal-head {font-size:12px;font-weight: bold;text-transform: uppercase;text-align: left;}
+.clear {clear: both;}
+.lightgray  {color: #a9a9a9!important;}
+h2 {font-size: 20px;font-weight: 300;text-transform: uppercase;}
+.breadcrumbs {text-align: center;font-size: 10px;color: #a9a9a9;margin-top: 5px;text-transform: uppercase;
+  span {font-weight: bold; }
+  a {font-weight: 300!important;color: #000;text-decoration: none!important;font-size: 10px!important;
+    &:visited , :active , :hover {
+      text-decoration: none!important;
+      color: #000!important;
+    }
+  }
+}
+.ui-alt-icon.ui-icon-bars, .ui-alt-icon .ui-icon-bars {background-image: url('../../img/menubtn.jpg')!important;top: 15px!important;
+  img  {width: 50px;height: 50px;}
+}
+
+.btnArrow         {float: right;width: 50px;height: 50px;background: url('../../img/btnArrow.jpg');margin-top: -16px;margin-right: -67px;}
+.SubMenuContainer
+{
+  .MenuBoxItem  {background-color:  #d9dad9;font-family: 'Open Sans', sans-serif;font-weight: 300;text-shadow: none !important;padding: 5px;font-size: 25px;margin-top:20px;text-transform: uppercase;
+    a {color: #000!important;font-size:25px;font-family: 'Open Sans', sans-serif;font-weight: 300;text-decoration: none;}
+  }
+}
+.SubMenuFooter
+{
+  font-family: 'Open Sans', sans-serif;
+  color: #a9a9a9;
+  p  {margin-top: 5px;float: left;font-size: 10px;}
+  ul {
+    margin-top: 20px;margin-left: 0px;margin-bottom: 5px;list-style: none;
+    li {float: left;font-size: 10px;font-weight:bold;margin-right: 5px;color: #a9a9a9!important;
+      a {background-color: rgba(0,0,0,.0)!important;color: #a9a9a9!important;padding: 0px;font-weight: 300!important;
+        background: none!important;float: left;font-size: 10px!important;text-decoration: none!important;
+        &:visited {color: #a9a9a9!important;}
+        &:active  {color: #a9a9a9!important;}
+      }
+    }
+  }
+}
+.jqm-footer          {background: #fff!important; border: 1px solid #ddd;position: fixed;width: 100%!important;bottom: 0px;clear: both;z-index: 0;
+  .footerSubImages   {width: 72%;margin: 0px auto;}
+  .FooterImages      {width: 100%;margin: 0px auto;text-align: center!important;
+    img {}
+
+  }
+}
+.jqm-header {height: 48px;top: 0px!important;
+  .SmallRet {
+    height: 46px!important;
+  }
+  .BigRet {
+    height: 93px!important;
+  }
+}
+.main-header {height: 100px;}
+.jqm-content  {padding: 0px;background: #fff;
+  /*  img {width: 100%;}*/
+}
+.home-header
+{
+  height: 95px!important;
+}
+.margintop     {margin-top: 15px;}
+.BackButton {text-shadow: 0 0px 0 #f3f3f3;background: #a9a9a9;color: #fff;text-transform: uppercase;font-size: 15px;padding-top: 15px;padding-bottom: 15px;bottom: 55px;position: fixed;left: 0;width: 100%;text-align: center;font-weight: 300;}
+.jqm-view-source-link
+{
+  display: none!important;
+}
+.nocontent {margin-top: 15px;font-size: 12px;font-weight: 300;text-align: center}
+
+/**************************
+     NON GLOBAL STYLES
+*************************/
+
+.Listing
+{
+  padding-bottom: 200px;
+  a {color: #000;text-decoration: none;
+    &:hover , &:visited , &:active {color: #000;}
+  }
+  width: 92%;margin: 0px auto;text-align: center;
+  h2 {font-size: 20px;font-weight: 300;text-transform: uppercase;clear: both;margin-top: 0px;padding-top: 20px;margin-bottom: 0px;}
+  h3 {font-size: 20px;font-weight: 300;text-transform: uppercase;clear: both;margin-top: 0px;padding-top: 00px;margin-bottom: 10px;}
+  .dottedborder  {clear:both;background: url('../../img/dottedline.jpg');height: 10px;margin-top: 15px;margin-bottom: 15px;}
+  .listing-item  {margin-bottom: 5px;margin-top: 5px;clear: both;
+    .img {float: left;margin-top: 5px;}
+    .content {padding-left: 10px;text-align: left;width: 130px;float: left;padding-bottom: 15px;
+      h4{text-transform:uppercase;font-weight: 300;padding: 0px;margin-top: 0px;margin-bottom: 5px;}
+      p {margin-top: 0px;padding: 0px;font-size: 10px;font-weight: 300;
+        a {font-weight: 300;}
+      }
+      .careersLink {font-size: 10px!important;font-weight: 300!important;}
+    }
+  }
+}
+#calender
+{
+  padding-bottom: 100px;
+  width: 90%;margin: 0px auto;text-align: center;
+  h2 {font-size: 20px;font-weight: 300;text-transform: uppercase;clear: both;margin-top: 0px;padding-top: 20px;margin-bottom: 0px;}
+  h3 {font-size: 20px;font-weight: 300;text-transform: uppercase;clear: both;margin-top: 0px;padding-top: 00px;margin-bottom: 10px;}
+  .dottedborder  {background: url('../../img/dottedline.jpg');height: 10px;margin-top: 15px;margin-bottom: 15px;}
+  .listing-item  {padding-bottom: 5px;clear: both;border-bottom: 1px dotted #ccc;height: 100%;
+    .img {float: left}
+    .content {padding-left: 10px;text-align: left;width: 185px;float: left;margin-top: 10px;
+      h4{text-transform:uppercase;font-weight: 300;padding: 0px;margin-top: 0px;margin-bottom: 5px;}
+      p {margin-top: 0px;padding: 0px;font-size: 10px;font-weight: 300;}
+      a {font-size: 12px;text-transform: uppercase;color: #000;font-weight: 300;text-decoration: none;}
+    }
+    .date {
+      margin-top: 10px;
+      float: left;
+      text-align: center;
+      width: 75px;
+      font-weight: 300;
+      .dayofweek {font-size: 12px;color: #a9a9a9;}
+      .month     {font-size: 12px;color: #a9a9a9;}
+      .day       {font-size: 30px;}
+    }
+  }
+}
+#images
+{
+  width: 90%;margin: 0px auto;text-align: center;padding-bottom: 350px;
+  h2 {font-size: 20px;font-weight: 300;text-transform: uppercase;clear: both;margin-top: 0px;padding-top: 20px;margin-bottom: 0px;}
+  h3 {font-size: 20px;font-weight: 300;text-transform: uppercase;clear: both;margin-top: 0px;padding-top: 00px;margin-bottom: 10px;}
+  .dottedborder  {background: url('../../img/dottedline.jpg');height: 10px;margin-top: 15px;margin-bottom: 15px;}
+  .listing-item  {margin-bottom: 5px;margin-top: 5px;clear: both;
+    .img {float: left;margin-top: 10px;}
+    .content {padding-left: 10px;text-align: left;width: 125px;float: left;margin-top: 7px;
+      h4{text-transform:uppercase;font-weight: 300;padding: 0px;margin-top: 0px;margin-bottom: 5px;font-size: 15px;}
+      p {margin-top: 0px;padding: 0px;font-size: 10px;font-weight: 300;}
+      .imgDetail {margin-bottom: 5px;}
+    }
+  }
+  .imgDetail {margin-bottom: 5px;}
+  .images-container {padding-top: 20px;}
+  .ImageMenu {
+    float:left;
+    position:relative;
+    width:100%;
+    ul  {
+      position:relative;
+      left: 60%;
+      display: block;
+      clear: left;
+      text-align:center;
+      list-style: none;
+      font-size: 10px;
+      font-family: 'Open Sans', san-serif;
+      font-weight: 300;
+      margin:0;
+      padding:0;
+      margin-bottom: 15px;
+      li  {
+        position:relative;
+        margin:0;
+        right: 50%;
+        display: block;
+        padding:0;
+        a {
+          color: #000;
+          display:block;
+          margin: 1px;
+          font-weight: 300;
+          text-decoration: none;
+        }
+        .active {font-weight: bold;}
+        float: left;
+        font-weight: 300;
+      }
+    }
+  }
+}
+.italic  {font-style: italic}
+
+#home
+{
+  padding-bottom: 50px;
+  img {width: 100%;margin-top: -4px;}
+}
+
+#about  {
+  width: 90%;margin: 0px auto;padding-top: 20px;padding-bottom: 100px;
+  .dottedborder  {background: url('../../img/dottedline.jpg');height: 10px;margin-top: 15px;margin-bottom: 15px;}
+  h2             {font-size: 20px;font-weight: 300;text-transform: uppercase;text-align: center;margin-bottom: 0px;}
+  .quote         {font-size: 12px;color: #000;font-style: italic;line-height: 15px;font-weight: 300;}
+  .left-img      {float: left;width: 135px;margin-right: 10px;}
+  p              {line-height: 16px;font-size: 12px;font-weight: 300;padding-top: 0px;padding-bottom: 10px;margin: 0px;}
+  ul {font-size: 12px;font-weight: 300;line-height: 30px;}
+  a {font-weight: 300!important;
+    &:visited  {
+      text-decoration: none!important;
+      color: #000!important;
+    }
+  }
+}
+
+
+#news  {
+  width: 90%;margin: 0px auto;padding-top: 20px;padding-bottom: 100px;
+  .title         {font-weight: 300;}
+  .dottedborder  {background: url('../../img/dottedline.jpg');height: 10px;margin-top: 15px;margin-bottom: 15px;}
+  .subtitle      {margin: 0px auto;clear: both;font-size: 12px;;text-transform: uppercase;color: #969696;}
+  .date          {clear: both;font-size: 12px;color: #969696}
+  .month         {font-weight: bold;font-size: 12px;}
+  h2             {font-size: 20px;font-weight: 300;text-transform: uppercase;text-align: center;}
+  .quote         {font-size: 12px;color: #000;font-style: italic;line-height: 15px;font-weight: 300;}
+  .left-img      {float: left;width: 135px;margin-right: 10px;}
+  p              {clear: both;line-height: 16px;font-size: 12px;font-weight: 300;padding-top: 10px;padding-bottom: 10px;margin: 0px;color: #969696;}
+}
+
+
+#detail {
+  width: 90%;margin: 0px auto;padding-top: 10px;padding-bottom: 100px;
+  h2             {margin-top: 0px;font-size: 20px;font-weight: 300;text-transform: uppercase;text-align: center;margin-bottom: 0px;}
+  .dottedborder  {background: url('../../img/dottedline.jpg');height: 10px;margin-top: 15px;margin-bottom: 15px;}
+  p              {clear: both;line-height: 16px;font-size: 12px;font-weight: 300;padding-top: 10px;padding-bottom: 10px;margin: 0px;}
+  ul  {
+    list-style: none;
+    font-size: 12px;
+    font-family: 'Open Sans', san-serif;
+    font-weight: 300;
+    li  {
+    }
+  }
+}
+
+
+#detailMain {
+  width: 100%;margin: 0px auto;padding-top: 0px;padding-bottom: 100px;
+  h2             {margin-top: 10px;font-size: 20px;font-weight: 300;text-transform: uppercase;text-align: center;margin-bottom: 0px;}
+  .dottedborder  {background: url('../../img/dottedline.jpg');height: 10px;margin-top: 15px;margin-bottom: 0px;}
+  a              {color: #000;text-decoration: none;font-weight: 300;}
+  p              {clear: both;line-height: 16px;font-size: 12px;font-weight: 300;padding-top: 10px;padding-bottom: 10px;margin: 0px;}
+  .container     {width: 90%;margin: 0px auto;padding-bottom: 50px;}
+  .margintop     {margin-top: 15px;}
+  ul  {
+    list-style: none;
+    margin-top: 0px;
+    font-size: 12px;
+    padding: 0px;
+    font-family: 'Open Sans', san-serif;
+    font-weight: 300;
+    li  {
+      width: 100%;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      text-transform: uppercase;
+      font-size: 20px;
+      text-align: center;
+      border-bottom: 1px dotted #ccc;
+      ul {display: none;
+        li
+        {
+          font-size: 15px;
+          border: 0px dotted #ccc;
+          padding-bottom: 5px;
+        }
+      }
+    }
+  }
+}
+#detailPrivate {
+  width: 100%;margin: 0px auto;padding-top: 0px;padding-bottom: 100px;
+  h2             {margin-top: 10px;font-size: 20px;font-weight: 300;text-transform: uppercase;text-align: center;margin-bottom: 0px;}
+  .dottedborder  {background: url('../../img/dottedline.jpg');height: 10px;margin-top: 15px;margin-bottom: 0px;}
+  a              {color: #000;text-decoration: none;font-weight: 300;}
+  p              {clear: both;line-height: 16px;font-size: 12px;font-weight: 300;padding-top: 10px;padding-bottom: 10px;margin: 0px;}
+  .container     {width: 90%;margin: 0px auto;padding-bottom: 50px;}
+  .margintop     {margin-top: 15px;}
+  ul li { font-size: 12px;font-weight: 300;}
+}
+#DetailMenu
+{
+  .italic        {font-style: italic;font-size: 12px;}
+  .dottedborder  {background: url('../../img/dottedline.jpg');height: 10px;margin-top: 15px;margin-bottom: 15px;}
+  margin: 0px auto;
+  width: 90%;
+  font-weight: 300;
+  text-align: center;
+  h2 {text-align: center;font-weight: 300;text-transform: uppercase;}
+  h3 {font-weight: 400;text-transform: uppercase;}
+  .DetailMenuHeader {font-weight: 400;text-transform: uppercase;}
+  .AboutContentContainer
+  {
+    padding-bottom: 50px;
+  }
+  .DetailMenuItem
+  {
+    .uppercase      {text-transform: uppercase;color: #a3a3a3;}
+    .italic         {font-style: italic;font-size: 10px;}
+  }
+}
+#Booking
+{
+  padding-bottom: 100px;
+  label {text-align: left;}
+  h2 {text-align: center;  margin-bottom: 0px;
+    padding: 0px;}
+  width: 90%;
+  margin: 0px auto;
+  .dottedborder  {background: url('../../img/dottedline.jpg');height: 10px;margin-top: 10px;margin-bottom: 15px;}
+  .opentable
+  {
+    margin-top: 20px;
+    .ui-checkbox {width: 50px;float: left;}
+    .text {float: left;width: 150px;margin-top: -1px;}
+  }
+  .SearchBtn {cursor: pointer;clear:both;text-shadow: 0 0px 0 #f3f3f3;background: #cdb677;color: #fff!important;text-transform: uppercase;font-size: 25px;padding-top: 15px;padding-bottom: 15px;;text-align: center;font-weight: 300;margin: 50px auto;}
+}
+#SecondaryForm
+{
+  padding-bottom: 100px;
+  label {text-align: left;}
+  h2 {text-align: center;  margin-bottom: 0px;
+    padding: 0px;}
+  width: 100%;
+  margin: 30px auto;
+  .dottedborder  {background: url('../../img/dottedline.jpg');height: 10px;margin-top: 10px;margin-bottom: 15px;}
+  .opentable
+  {
+    margin-top: 20px;
+    .ui-checkbox {width: 50px;float: left;}
+    .text {float: left;width: 150px;margin-top: -1px;}
+  }
+  .SearchBtn {cursor: pointer;clear:both;text-shadow: 0 0px 0 #f3f3f3;background: #cdb677;color: #fff!important;text-transform: uppercase;font-size: 25px;padding-top: 15px;padding-bottom: 15px;;text-align: center;font-weight: 300;margin: 50px auto;}
+}
+#Reservation
+{
+  padding-bottom: 100px;
+  h2 {text-align: center;margin-bottom: 0px;}
+  width: 90%;margin: 0px auto;
+  .dottedborder  {background: url('../../img/dottedline.jpg');height: 10px;margin-top: 10px;margin-bottom: 15px;}
+  .TitleContainer
+  {
+    text-transform: uppercase;
+    font-weight: 300;
+    color: #545454;
+    font-size: 15px;
+    p {margin-top: 25px;margin-bottom:30px;color: #a3a3a3;text-transform: capitalize;font-size: 12px;}
+  }
+  .CallBtn {cursor: pointer;text-shadow: 0 0px 0 #f3f3f3;;background: #cdb677;color: #fff;text-transform: uppercase;font-size: 25px;padding-top: 15px;padding-bottom: 15px;;text-align: center;font-weight: 300;margin: 0px auto;margin-bottom: 30px;}
+  form {
+    input {border-radius: 0px;}
+  }
+}
+
+#Shop
+{
+  padding-bottom: 200px;
+  a {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 300;
+    text-decoration: none;
+  }
+}

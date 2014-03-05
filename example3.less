@@ -1,0 +1,200 @@
+@import "lesshat.less";
+
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans'), local('OpenSans'), url(http://themes.googleusercontent.com/static/fonts/opensans/v7/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(http://themes.googleusercontent.com/static/fonts/opensans/v7/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Open Sans'), local('OpenSans'), url(http://themes.googleusercontent.com/static/fonts/opensans/v7/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+
+
+/*******************************
+   GLOBAL
+******************************/
+
+
+body
+{
+  margin: 0px;
+  body: 0px;
+  font-family: 'Open Sans',"Helvetica Neue",Helvetica,Arial,sans-serif;
+  background: #eaeaea;
+}
+a { color: #ddd;}
+/*******************************
+   HEADER
+******************************/
+
+header
+{
+  margin-top: 0px;
+  background-color: #973217;
+  width: 100%;
+  z-index: 1;
+  margin: 0px auto;
+  height: 50px;
+  position: fixed;
+  clear: both;
+  padding: 0px 0px 0px 0px;
+  color: #fff;
+  .opacity(0.9);
+  #top-menu
+  {
+    width: 960px;
+    margin: 0px auto;
+    .logo
+    {
+      float: left;
+    }
+    nav {
+      width: 620px;
+      margin: 0px auto;
+      margin-left: 0px;
+      float: left;
+
+      a
+      {
+        float: left;
+        margin: 19px 30px 0px;
+        font-size: 14px;
+        font-family: "Helvetica", Arial , sans-serif;
+        font-weight: bold;
+        text-decoration: none;
+        color: #fff;
+        .transition(color 1s ease-in);
+        &:hover
+        {
+          color: #D6D6D6;
+        }
+      }
+    }
+  }
+}
+
+/*******************************
+   Sidebar Container & Header
+*******************************/
+
+
+#sidebar-toggle
+{
+  top: 0px;
+  width: 50px;
+  background-color: #222;
+  z-index: 2150;
+  position: fixed;
+  height: 50px;
+  right: 0px;
+  bottom: 0px;
+}
+
+#chat-sidebar {
+  box-shadow: 0px 25px 12px #8c8b8b;
+  z-index: 2140;
+  right: 0px;
+  width: 0px;
+  height: 100%;
+  font-size: 12px;
+  min-height: 100%;
+  background-color: #FFF;
+  color: #000;
+  border-left: 0px solid #333;
+  position: fixed;
+  top: 0px;
+  #talk-banner
+  {
+    background-color: #222;
+    padding: 17px 0px 0px 15px;
+    width: 250px;
+    height: 33px;
+    z-index: 3;
+    text-align: left;
+    font-family: Helvetica , Arial , sans-serif;
+    font-weight: bold;
+    color: #fff;
+    font-size: 15px;
+    border: 0px;
+  }
+}
+
+/*******************************
+   Pages
+*******************************/
+
+.content-container
+{
+  .banner {
+    img {border-radius-topleft: 6px;border-bottom-topright-radius: 6px;}
+  }
+  top: 75px;
+  clear: both;
+  width: 960px;
+  position: relative;
+  margin: 0px auto;
+  background: #fff;
+  .content {
+
+    h1 {
+    margin-top: 0px;
+    font-weight: 300;
+    color: #973217;
+    }
+    padding: 25px;
+    p {line-height: 16px;font-family: "Helvetica", Arial , sans-serif;color: #333;font-size: 12px;}
+    ul {
+    li {list-style: none;}
+    }
+  }
+}
+
+/*******************************
+   Footer
+*******************************/
+footer
+{
+  background-color: #eaeaea;
+  height: 100px;
+  clear: both;
+  padding-top: 20px;
+  color: #999999;
+  text-align: left;
+  font-size: 12px;
+  font-family: Helvetica , Arial , sans-serif;
+  margin: 12px auto;
+  #footer-content  {
+    width: 960px;
+    padding-top: 35px;
+    margin: 0px auto;
+    text-align: left;
+    a  {
+      color: #747474;
+      padding-right: 8px;
+      font-weight: bold;
+      text-decoration: none;
+	  &:hover {
+      text-decoration: underline;
+     }
+    }
+    .footer-subtext  {
+      font-size: 12px;
+      padding-top: 10px;
+      color: #999;
+      font-family: Helvetica , Arial , sans-serif;
+    }
+  }
+}
